@@ -1,4 +1,6 @@
 NewsIndexer::Application.routes.draw do
+  get "indexer/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
